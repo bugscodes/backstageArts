@@ -50,9 +50,8 @@ header {
         display: grid;
         place-content: center;
         height: 100vh;
-        scroll-snap-align: start;
+        scroll-snap-align: center;
         scroll-snap-stop: always;
-        transition: 1000ms;
     }
 
     & img {
