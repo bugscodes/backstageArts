@@ -5,14 +5,15 @@
     --clr-primary-200: #e5e6e7;
     --clr-secondary: #000000;
 
-    --ff: "Roboto", sans-serif;
+    --ff-regular: "Roboto", sans-serif;
+    --ff-bold: "Roboto Condensed", sans-serif;
     --fw-regular: 400;
     --fw-bold: 700; 
 }
 
 /* general-styling */
 body {
-    font-family: var(--ff);
+    font-family: var(--ff-regular);
     background-color: var(--clr-primary-100);
 }
 
@@ -20,6 +21,10 @@ body {
 html {
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: var(--ff-bold);
 }
 
 header {
