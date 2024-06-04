@@ -22,14 +22,13 @@
     text-decoration: underline;
 }
 
-
 /* general-styling */
 body {
     font-family: var(--ff-regular);
     background-color: var(--clr-primary);
 }
 
-/* scroll-snapping */
+/* snap-scrolling */
 html {
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
@@ -58,12 +57,12 @@ header {
     }
 }
 
-.container {
+.content--wrapper {
     display: grid;
     place-content: center;
     text-align: center;
 
-    & .child {
+    & section {
         display: grid;
         place-content: center;
         height: 100vh;
